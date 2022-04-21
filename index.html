@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quote-container" id="quote-container">
+      <!-- Quote Element -->
+      <div class="quote-text">
+        <!-- <i class="fa-regular fa-quote-left"></i> -->
+        <i class="fa-solid fa-quote-left"></i>
+        <span id="quote"></span>
+      </div>
+      <!-- Author -->
+      <div class="quote-author">
+        <span id="author"></span>
+      </div>
+      <!-- Buttons -->
+      <div class="button-container">
+        <button class="twitter-button" id="twitter" title="Tweet Now">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="new-quote">New Quote</button>
+      </div>
+      <div>
+        <a
+          href="https://github.com/mohammedkharoda"
+          target="_blank"
+          title="Hello! You Find me Here 😊"
+        >
+          <button class="credits" id="credits" title="">
+            Made By <i class="fa-solid fa-heart"></i> Mohammed Kharoda
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- Loader -->
+    <div id="loader" class="reverse-spinner"></div>
+    <!-- Credits -->
+
+    <!-- Script -->
+    <script
+      src="https://kit.fontawesome.com/54eae6bc7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
